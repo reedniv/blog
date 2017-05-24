@@ -134,7 +134,7 @@ function auto_safeconvert() {
             a_to_ve[i].href = "//www.savelinked.ga/p/generate.html?url=" + encryptedUrl;
             a_to_ve[i].rel = "nofollow";
             a_to_vb++;
-            a_to_vc += i + ":::" + a_to_ve[i].href + "\n";
+            a_to_vc += i + ":::" + a_to_ve[i].href + "/";
         }
     }
     var a_to_vj = document.getElementById("anonyminized");
