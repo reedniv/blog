@@ -137,8 +137,8 @@ function auto_safeconvert() {
             a_to_vc += i + ":::" + a_to_ve[i].href + "/";
         }
     }
-    var a_to_vj = document.getElementById("anonyminized");
-    var a_to_vk = document.getElementById("found_links");
+    var a_to_vj = document.getElementById("download");
+    var a_to_vk = document.getElementById("links");
     if (a_to_vj) {
         a_to_vj.innerHTML += a_to_vb;
     }
@@ -149,7 +149,7 @@ function auto_safeconvert() {
 
 function a_to_fa() {
     var a_to_vf = new Array();
-    protected_links = protected_links.replace("http://www.savelinked.ga/p/generate.html", "");
+    protected_links = protected_links.replace("", "");
     a_to_vf = protected_links.split(",");
     return a_to_vf;
 }
