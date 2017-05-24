@@ -137,8 +137,8 @@ function auto_safeconvert() {
             a_to_vc += i + ":::" + a_to_ve[i].href + "/";
         }
     }
-    var a_to_vj = document.getElementById("download");
-    var a_to_vk = document.getElementById("links");
+    var a_to_vj = document.getElementById("anonyminized");
+    var a_to_vk = document.getElementById("visit_link");
     if (a_to_vj) {
         a_to_vj.innerHTML += a_to_vb;
     }
