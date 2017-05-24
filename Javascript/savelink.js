@@ -149,7 +149,7 @@ function auto_safeconvert() {
 
 function a_to_fa() {
     var a_to_vf = new Array();
-    protected_links = protected_links.replace(" ", "");
+    protected_links = protected_links.replace("http://www.savelinked.ga/p/generate.html", "");
     a_to_vf = protected_links.split(",");
     return a_to_vf;
 }
