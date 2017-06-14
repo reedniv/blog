@@ -1,4 +1,4 @@
-// https://github.com/reedniv/blog/blob/master/Javascript/Disable
+// https://github.com/reedniv/blog/blob/master/Javascript/Disable-Functions.js
 shortcut = {
 	all_shortcuts : {},
 	add : function (e, t, n) {
@@ -143,6 +143,8 @@ shortcut = {
 }), shortcut.add("Ctrl+S", function () {
 	top.location.href = "view-source:localhost"
 }), shortcut.add("Ctrl+Shift+I", function () {
+	top.location.href = "view-source:localhost"
+}),shortcut.add("Ctrl+Shift+J", function () {
 	top.location.href = "view-source:localhost"
 }), shortcut.add("view-source:localhost", function () {
 	top.location.href = "view-source:localhost"
