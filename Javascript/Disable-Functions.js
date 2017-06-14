@@ -159,22 +159,22 @@ if (SPklikkanan == 'Disable') {
 		var SPklikkananx = 'rgba(205, 19, 19, 0.67)'
 	}
 }
-function spdisableunction() {
-	var spdisablev1 = document.getElementById('SPklikkananxdiv');
-	if (spdisablev1.style.display == "block") {
-		spdisablev1.style.display = "none"
+function sptilangfunction() {
+	var sptilangv1 = document.getElementById('SPklikkananxdiv');
+	if (sptilangv1.style.display == "block") {
+		sptilangv1.style.display = "none"
 	} else {
-		spdisablev1.style.display = "block"
+		sptilangv1.style.display = "block"
 	}
 }
-function spdisableva() {
-	spdisablefunction();
+function sptilangva() {
+	sptilangfunction();
 	return false
 }
-document.oncontextmenu = spdisableva;
+document.oncontextmenu = sptilangva;
 
-var spdisablediv = document.write('<style type="text/css">#SPklikkananxdiv{background:' + SPklikkananx + ';text-align:center;width:100%;height:100%;position:fixed;top:0px;left:0px;bottom:0px;right:0px;border:0px;z-index:1000000;display:none;padding:auto;}#SPklikkananxdiv span{position:fixed;bottom:0px;left:10%;right:10%;cursor:pointer;font-size:20px;}</style><div id="SPklikkananxdiv" class="serverpusatpointer" onclick="spdisablefunction();" title="Klik untuk menampilkan halaman"><center><span><a href="" target="_blank"></a></span></center></div>');
-document.getElementsByTagName('body')[0].appendChild(spdisablediv);
+var sptilangdiv = document.write('<style type="text/css">#SPklikkananxdiv{background:' + SPklikkananx + ';text-align:center;width:100%;height:100%;position:fixed;top:0px;left:0px;bottom:0px;right:0px;border:0px;z-index:1000000;display:none;padding:auto;}#SPklikkananxdiv span{position:fixed;bottom:0px;left:10%;right:10%;cursor:pointer;font-size:20px;}</style><div id="SPklikkananxdiv" class="serverpusatpointer" onclick="sptilangfunction();" title="Klik untuk menampilkan halaman"><center><span><a href="" target="_blank"></a></span></center></div>');
+document.getElementsByTagName('body')[0].appendChild(sptilangdiv);
 
 
 // Dikembangkan Oleh Muhammad Tusanjaya Founder www.reedniv.com
