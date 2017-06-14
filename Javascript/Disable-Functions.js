@@ -168,10 +168,13 @@ function sptilangfunction() {
 	}
 }
 function sptilangva() {
-	sptilangfunction();
+	spdisablefunction();
 	return false
 }
-document.oncontextmenu = sptilangva;
+document.oncontextmenu = spdisableva;
 
 var sptilangdiv = document.write('<style type="text/css">#SPklikkananxdiv{background:' + SPklikkananx + ';text-align:center;width:100%;height:100%;position:fixed;top:0px;left:0px;bottom:0px;right:0px;border:0px;z-index:1000000;display:none;padding:auto;}#SPklikkananxdiv span{position:fixed;bottom:0px;left:10%;right:10%;cursor:pointer;font-size:20px;}</style><div id="SPklikkananxdiv" class="serverpusatpointer" onclick="sptilangfunction();" title="Klik untuk menampilkan halaman"><center><span><a href="" target="_blank"></a></span></center></div>');
-document.getElementsByTagName('body')[0].appendChild(sptilangdiv);
+document.getElementsByTagName('body')[0].appendChild(spdisablediv);
+
+
+// Dikembangkan Oleh Muhammad Tusanjaya Founder www.reedniv.com
