@@ -1,4 +1,4 @@
-// https://github.com/reedniv/blog/blob/master/Javascript/Disable Functions.js
+// https://github.com/reedniv/blog/blob/master/Javascript/Disable-Functions.js
 shortcut = {
     all_shortcuts: {},
       add: function (e, t, n) {
