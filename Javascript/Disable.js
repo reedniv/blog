@@ -151,7 +151,7 @@ shortcut = {
 }), shortcut.add("F12", function () {
 	top.location.href = "view-source:localhost"
 })
-if (SPklikkanan == 'Disable) {
+if (SPklikkanan == 'Disable') {
 	var SPklikkananx = 'rgba(205, 19, 19, 0.67)'
 } else { {
 		var SPklikkananx = 'rgba(205, 19, 19, 0.67)'
