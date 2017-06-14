@@ -1,4 +1,4 @@
-// https://github.com/reedniv/Disable
+// https://github.com/reedniv/blog/blob/master/Javascript/Disable
 shortcut = {
 	all_shortcuts : {},
 	add : function (e, t, n) {
