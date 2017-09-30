@@ -131,10 +131,10 @@ function auto_safeconvert() {
         }
         if (a_to_vh == false) {
             var encryptedUrl = Base64.encode(a_to_vi);
-            a_to_ve[i].href = "http://encrypt-links.blogspot.com/p/redirect.html?url=" + encryptedUrl;
+            a_to_ve[i].href = "https://encrypt-links.blogspot.co.id/p/redirect.html?url=" + encryptedUrl;
             a_to_ve[i].rel = "nofollow";
             a_to_vb++;
-            a_to_vc += i + ":::" + a_to_ve[i].href + "\n";
+            a_to_vc += i + ":::" + a_to_ve[i].href;
         }
     }
     var a_to_vj = document.getElementById("anonyminized");
