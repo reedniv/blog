@@ -21,7 +21,7 @@ if(a_to_vh==false)
 {var encryptedUrl=Base64.encode(a_to_vi);
 var x=Math.floor((Math.random()*5)+ 1);
 var xxx=null;
-if(x=="1"){xxx="/2017/04/18-insane-but-true-things-about-car.html"}
+if(x=="1"){xxx="/2017/09/constructive-ideas-for-teaching.html"}
 if(x=="2"){xxx="/2017/04/the-oddest-place-you-will-find-modern.html"}
 if(x=="3"){xxx="/2017/04/global-internet-marketing.html"}
 if(x=="4"){xxx="/2017/04/how-to-generate-passive-income.html"}
