@@ -20,14 +20,14 @@ j++;}
 if(a_to_vh==false)
 {var encryptedUrl=Base64.encode(a_to_vi);
 var x=Math.floor((Math.random()*5)+ 1);
-var xxx=null;
+var p=null;
 if(x=="1"){xxx="/2017/04/18-insane-but-true-things-about-car.html"}
 if(x=="2"){xxx="/2017/04/the-oddest-place-you-will-find-modern.html"}
 if(x=="3"){xxx="/2017/04/global-internet-marketing.html"}
 if(x=="4"){xxx="/2017/04/how-to-generate-passive-income.html"}
 if(x=="5"){xxx="/2017/04/dating-advice-for-men-from-biological.html"}
 if(x=="5"){xxx="/2017/04/how-to-write-business-to-business.html"} 
- a_to_ve[i].href="http://encrypt-links.blogspot.com"+xxx+"?url="+ encryptedUrl;a_to_ve[i].rel="nofollow";a_to_vb++;a_to_vc+=i+":::"+ a_to_ve[i].href+"\n";}}
+ a_to_ve[i].href="http://encrypt-links.blogspot.com"+p+"?url="+ encryptedUrl;a_to_ve[i].rel="nofollow";a_to_vb++;a_to_vc+=i+":::"+ a_to_ve[i].href+"\n";}}
 var a_to_vj=document.getElementById("anonyminized");var a_to_vk=document.getElementById("found_links");if(a_to_vj)
 {a_to_vj.innerHTML+=a_to_vb;}
 if(a_to_vk)
